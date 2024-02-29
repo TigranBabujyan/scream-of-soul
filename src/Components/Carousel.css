@@ -1,0 +1,14 @@
+.carousel {
+    object-fit: cover;
+    width: 100vw;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 5rem;
+}
+
+.carousel img {
+    align-items: center;
+    width: 50vw;
+    height: auto;
+    transition: transform 0.5s ease-in-out;
+}

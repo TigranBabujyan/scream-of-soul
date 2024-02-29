@@ -1,0 +1,34 @@
+.footer {
+    background-color: #3F6634;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    opacity: 70%;
+}
+
+.footer-links {
+    background-color: #3F6634;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.footer a {
+    color: white;
+    text-decoration: underline;
+}
+
+.footer a:hover {
+    color: #4FB477;
+}
+
+.footer span {
+    margin-left: 10px;
+}
+
+.additional-info {
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 1.5;
+}

@@ -1,0 +1,60 @@
+.body_65meters {
+    margin: 0;
+    padding: 2rem;
+    font-family: 'Arial', sans-serif;
+    background: url(../../images/SVG/background_mount_rope.svg) no-repeat center center fixed ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.rope_image {
+    width: 95vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+    flex-direction: column;
+}
+
+.img_wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    object-fit: cover;
+    width: 95vw;
+    height: 71.5vh;
+    filter: blur(5px);
+    border: #4FB477;
+    border: 2rem;
+    border-color: #4FB477;
+}
+
+.text_img {
+    display: flex;
+    flex-direction: column;
+    background-color: #4FB477;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    font-size: 2rem;
+
+}
+
+.card_wrap {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+}
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 100%;
+}

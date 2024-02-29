@@ -1,0 +1,19 @@
+<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background Color -->
+    <rect width="100%" height="100%" fill="#3F6634" />
+
+    <!-- Hexagon Pattern -->
+    <g fill="limegreen">
+        <!-- Define the size of the hexagon -->
+        <defs>
+            <polygon id="hexagon" points="30,10 45,10 52,20 45,30 30,30 23,20" />
+        </defs>
+
+        <!-- Create a grid of hexagons -->
+        <pattern id="hexPattern" width="60" height="52" patternUnits="userSpaceOnUse">
+            <use href="#hexagon" />
+        </pattern>
+
+        <rect width="100%" height="100%" fill="url(#hexPattern)" />
+    </g>
+</svg>

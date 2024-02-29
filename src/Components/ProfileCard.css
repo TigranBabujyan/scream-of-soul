@@ -1,0 +1,22 @@
+.card-container {
+    border-radius: 20rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background-color: #4FB477;
+    width: 300px; /* adjust width as needed */
+}
+
+.profile-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.text-container {
+    padding: 20px;
+}
+
+.name-surname {
+    color: #dddddd;
+    margin: 0;
+}

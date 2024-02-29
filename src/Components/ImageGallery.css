@@ -1,0 +1,154 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #212121;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100vh;
+    width: 90%;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+
+.img-container {
+    display: inline-block;
+    overflow: hidden;
+    margin-left: -2.8px;
+    margin-right: -2.8px;
+    width: 170px;
+    vertical-align: top;
+    border-radius: 0 0 80px 80px;
+    animation-name: flow;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-delay: -2s;
+    transition-timing-function: cubic-bezier(0,.57,1,.46);
+    box-shadow: 2px 2px 16px 2px rgba(0,0,0,0.5);
+}
+
+.second-animation {
+    animation-delay: -1.5s;
+}
+
+.third-animation {
+    animation-delay: -1s;
+}
+
+.fourth-animation {
+    animation-delay: -0.5s;
+}
+
+.fifth-animation {
+    animation-delay: 0s;
+}
+
+.sixth-animation {
+    animation-delay: 0.5s;
+}
+
+.seventh-animation {
+    animation-delay: 1s;
+}
+
+.eight-animation {
+    animation-delay: 1.5s;
+}
+.ninth-animation {
+    animation-delay: 2s;
+}
+
+.img-1 {
+    object-fit: cover;
+    width: 170px;
+    height: 100vh;
+    margin-top: -60px;
+}
+
+.img-2 {
+    object-fit: cover;
+    width: 170px;
+    height: 100vh;
+    margin-top: -60px;
+}
+
+.img-3 {
+    object-fit: cover;
+    width: 170px;
+    height: 100vh;
+    margin-top: -60px;
+}
+
+.img-4 {
+    object-fit: cover;
+    width: 170px;
+    height: 100vh;
+    margin-top: -60px;
+}
+.img-5 {
+    object-fit: cover;
+    width: 170px;
+    height: 100vh;
+    margin-top: -60px;
+}
+.img-6 {
+    object-fit: cover;
+    width: 170px;
+    height: 100vh;
+    margin-top: -60px;
+}
+.img-7 {
+    object-fit: cover;
+    width: 170px;
+    height: 100vh;
+    margin-top: -60px;
+}
+.img-8 {
+    object-fit: cover;
+    width: 170px;
+    height: 100vh;
+    margin-top: -60px;
+}
+
+.img-9 {
+    object-fit: cover;
+    width: 170px;
+    height: 100vh;
+    margin-top: -60px;
+}
+
+.nba {
+    margin-top: -20px;
+}
+
+@keyframes flow {
+    0% {height: 20%; border-radius: 0px 0px 30px 30px;}
+    50% {height: 90%; border-radius: 0px 0px 100px 100px;}
+    100% {height: 20%; border-radius: 0px 0px 30px 30px;}
+}
+
+@media only screen and (max-width: 1200px) {
+    #img-7 {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1028px) {
+    #img-1 {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 860px) {
+    #img-6 {
+        display: none;
+    }
+}

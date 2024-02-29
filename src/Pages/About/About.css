@@ -1,0 +1,79 @@
+.about_body {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 95%;
+    align-items: center;
+    padding: 8rem 2rem 2rem;
+}
+
+.cover_about {
+    background: url(../../images/rope1.jpg) no-repeat center center;
+    /*box-shadow: 10px 5px 5px #333333;*/
+    border-color: #0b0f08;
+    box-shadow: 3px 3px #333333, -1em 0 .4em #4FB477;
+    border-radius: 5rem;
+    object-fit: cover;
+    width: 80vw;
+    height: 40vw;
+}
+
+.about_wrap {
+    opacity: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem;
+}
+
+.text_background {
+    background-color: #333333;
+    opacity: 80%;
+    box-shadow: 3px 3px #333333, -1em 0 .4em #4FB477;
+}
+.cover_text {
+    opacity: 100%;
+    display: flex;
+    font-size: 32px;
+    color: #ffffff;
+    margin-top: calc(40vw - 6vw);
+    margin-left: calc(80vw - 78vw);
+}
+
+.name_card_wrap {
+    width: 95vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.name_card {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    display: flex;
+    flex-direction: column;
+    /*width: 95vw;*/
+    justify-content: space-around;
+}
+
+.person_card {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+
+.personal_image {
+    display: flex;
+    object-fit: contain;
+    border-radius: 50rem;
+}
+
+
+.about_image {
+    border-color: #0b0f08;
+    border-radius: 5rem;
+    object-fit: cover;
+    width: 80vw;
+    height: 40vw;
+}
