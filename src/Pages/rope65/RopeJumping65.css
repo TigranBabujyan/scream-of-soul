@@ -58,3 +58,10 @@
     justify-content: space-around;
     max-width: 100%;
 }
+
+.card_mobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    max-width: 100%;
+}

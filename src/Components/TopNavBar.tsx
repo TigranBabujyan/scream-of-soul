@@ -46,26 +46,31 @@ if (lastElement !== ''){
     }
 
     return (
-        <nav className="top-nav-bar">
-            <Link to="/">
-                <img className='nav-bar-logo' src={logoSOS}/>
-                    <Typography>{name}</Typography>
-            </Link>
-            <div className='nav-bar-buttons'>
-                <ul>
-                    <li><Link to="/about">About</Link></li>
-                    <li><Link to="/services">Services</Link></li>
-                    <li><Link to="/portfolio">Portfolio</Link></li>
-                    <li><Link to="/team">Team</Link></li>
-                    <li><Link to="/contacts">Contact</Link></li>
-                </ul>
+        <div>
+                <nav className="top-nav-bar">
+                    <Link to="/">
+                        <img className='nav-bar-logo' src={logoSOS}/>
+                            <Typography>{name}</Typography>
+                    </Link>
+                    <div className='nav-bar-buttons'>
+                        <ul>
+                            <li><Link to="/about">About</Link></li>
+                            <li><Link to="/services">Services</Link></li>
+                            <li><Link to="/portfolio">Portfolio</Link></li>
+                            <li><Link to="/team">Team</Link></li>
+                            <li><Link to="/contacts">Contact</Link></li>
+                        </ul>
+                    </div>
+                    <IconButton href='/cart'>
+                        <div className='count'>{count}</div>
+                        <ShoppingCartIcon
+                        className={classes.shoppingCart}/>
+                    </IconButton>
+                </nav>
+            <div className='top-nav-bar-mobile'>
+
             </div>
-            <IconButton href='/cart'>
-                <div className='count'>{count}</div>
-                <ShoppingCartIcon
-                className={classes.shoppingCart}/>
-            </IconButton>
-        </nav>
+        </div>
     );
 };
 

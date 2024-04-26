@@ -7,6 +7,7 @@ import InfoCard from "../../Components/InfoCard";
 const About: React.FC = () => {
 
     let windowHeight = window.innerHeight
+    let mobileView = window.innerWidth < 431
 
     return (
         <div className='body_65meters'>
@@ -24,12 +25,12 @@ const About: React.FC = () => {
             {/*    </div>*/}
             {/*</div>*/}
             <div className='card_wrap'>
-                <div className='cards'>
+                <div className={`${mobileView? 'card_mobile' : 'cards'}`}>
                     <InfoCard/>
                     <InfoCard/>
                     <InfoCard/>
                 </div>
-                <div className='cards'>
+                <div className={`${mobileView? 'card_mobile' : 'cards'}`}>
                     <InfoCard/>
                     <InfoCard/>
                     <InfoCard/>

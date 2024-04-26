@@ -14,16 +14,16 @@ const LandingPage: React.FC = () => {
         <div id="root">
             <div>
                 <div className='title'>
-                    <div className='title_top'>Scream Of Soul</div>
-                    <div className='title_bottom'>Providing Memories Since 2015</div>
+                    <div className='title_top title_top_mobile'>Scream Of Soul</div>
+                    <div className='title_bottom title_bottom_mobile'>Providing Memories Since 2015</div>
                 </div>
-                <div className='header_container1 first'></div>
+                <div className='header_container1 first mobileView'></div>
                 <div className='top_container_positioning'>
                     <div className='top_left_container'>
                         <ImageGallery/>
                     </div>
-                    <div className='top_right_container first'>
-                        <div className='text'>
+                    <div className='top_right_container first mobileView'>
+                        <div className='text mob'>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                             labore
                             et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
@@ -35,7 +35,7 @@ const LandingPage: React.FC = () => {
                         <img src={canyoning1} className='container_image_top'></img>
                     </div>
                 </div>
-                <div className='header_container2 second'></div>
+                <div className='header_container2 second mobileView'></div>
                 <div className='bottom_container_positioning'>
                     <div className='bottom_left_container second'>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
@@ -50,7 +50,7 @@ const LandingPage: React.FC = () => {
                         <ImageGallery/>
                     </div>
                 </div>
-                <div className='header_container1 third'></div>
+                <div className='header_container1 third mobileView'></div>
                 <div className='top_container_positioning'>
                     <div className='top_left_container'>
                         <ImageGallery/>
@@ -66,7 +66,7 @@ const LandingPage: React.FC = () => {
                         <img src={rope5} className='container_image_top'></img>
                     </div>
                 </div>
-                <div className='header_container2 fourth'></div>
+                <div className='header_container2 fourth mobileView'></div>
                 <div className='bottom_container_positioning'>
                     <div className='bottom_left_container fourth'>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
@@ -82,7 +82,7 @@ const LandingPage: React.FC = () => {
                     </div>
                 </div>
             </div>
-            <div className='cardsPositioning'>
+            <div className='cardsPositioning mobileView'>
                 <div className='cardBody'>
                     <Card
                         cart='#' // adding to cart
